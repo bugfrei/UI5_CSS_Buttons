@@ -1,21 +1,55 @@
 /* Enter your custom styles here */
-.btnBig {
-    height: 6em !important;
-    width: 35em !important;
-    margin-right: 2em;
-    border-radius: 10px;
+.btnSmall {
+    height: 2em !important;
+    width: 10em !important;
+    margin-right: 1em;
+    border-radius: 5px;
     padding: 0px !important;
-    background-color: red;
 }
-
-.btnInnerBig .sapMBtnInner {
-    font-size: 1.8em !important;
+.btnInnerSmall .sapMBtnInner {
+    font-size: 0.8em !important;
     height: 100% !important;
     align-items: center !important;
-    background-color: #bbbbbb;
-    color: blue;
+}
+
+.btnMedium {
+    height: 4em !important;
+    width: 15em !important;
+    margin-right: 1em;
+    border-radius: 5px;
+    padding: 0px !important;
+}
+.btnInnerMedium .sapMBtnInner {
+    font-size: 1.5em !important;
+    height: 100% !important;
+    align-items: center !important;
+}
+.btnBig {
+    height: 8em !important;
+    width: 20em !important;
+    margin-right: 1em;
+    border-radius: 5px;
+    padding: 0px !important;
+}
+.btnInnerBig .sapMBtnInner {
+    font-size: 3em !important;
+    height: 100% !important;
+    align-items: center !important;
+}
+.btnContentBig .sapMBtnContent {
+    padding-top: 0.4em;
+    height: 1em !important;
 }
 
 .btnBlue .sapMBtnInner {
     background-color: #5555ff;
+    color: white;
+}
+.btnGreen .sapMBtnInner {
+    background-color: #55ff55;
+    color: black;
+}
+.btnRed .sapMBtnInner {
+    background-color: #ff5555;
+    color: black;
 }

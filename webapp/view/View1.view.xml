@@ -3,7 +3,9 @@
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
         <content>
-            <Button id="btnId" press="onPressHandler" text="Label" visible="true" class="btnBig btnInnerBig btnBlue"/>
+            <Button id="btnId1" press="onPressHandler1" text="Labeltest: g" visible="true" class="btnSmall btnInnerSmall btnRed"/>
+            <Button id="btnId2" press="onPressHandler2" text="Labeltest: g" visible="true" class="btnMedium btnInnerMedium btnGreen"/>
+            <Button id="btnId3" press="onPressHandler3" text="Labeltest: g" visible="true" class="btnBig btnInnerBig btnContentBig btnBlue"/>
         </content>  
     </Page>                                                                        
 </mvc:View>
