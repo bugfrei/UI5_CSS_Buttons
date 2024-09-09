@@ -56,10 +56,14 @@
 
 .btnBlue:hover .sapMBtnInner {
     background-color: #3333ff;
+    color: yellow !important;
+    
 }
 .btnGreen:hover .sapMBtnInner {
     background-color: #33ff33;
+    color: yellow !important;
 }
 .btnRed:hover .sapMBtnInner {
     background-color: #ff3333;
+    color: yellow !important;
 }
