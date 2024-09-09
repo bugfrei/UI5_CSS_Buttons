@@ -53,3 +53,13 @@
     background-color: #ff5555;
     color: black;
 }
+
+.btnBlue:hover .sapMBtnInner {
+    background-color: #3333ff;
+}
+.btnGreen:hover .sapMBtnInner {
+    background-color: #33ff33;
+}
+.btnRed:hover .sapMBtnInner {
+    background-color: #ff3333;
+}
